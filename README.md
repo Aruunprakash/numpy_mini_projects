@@ -1,6 +1,3 @@
-# numpy_mini_projects
-practice projects only using numpy
-
 # NumPy Mini Projects Portfolio
 
 This repository contains a collection of three mini-projects demonstrating the power of **NumPy** for data manipulation, mathematical optimization, and image processing. Each project focuses on solving a real-world scenario using vectorized operations and efficient array handling.
