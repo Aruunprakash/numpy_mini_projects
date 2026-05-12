@@ -1,56 +1,44 @@
-# 🚀 Data Science & Analytics Portfolio: NumPy & Pandas
+# 📊 Data Science Portfolio: The Power of EDA
+> **Transforming raw data into strategic insights using NumPy, Pandas, and Matplotlib.**
 
-This repository features a collection of five specialized projects demonstrating advanced data manipulation, financial analysis, and numerical optimization. These projects showcase the transition from raw, messy data to actionable insights using the core pillars of the Python data stack: **NumPy** and **Pandas**.
-
----
-
-## 📂 Pandas Projects (Business & Strategic Analytics)
-
-### 1. Movie Production & Marketing Optimizer
-**Goal:** Analyze 1,000+ films to identify high-ROI production opportunities for a film studio.
-* **Regex String Surgery:** Used `.str.extract()` to clean non-standard date formats (e.g., "II 2018").
-* **Data Transformation:** Converted currency and runtime strings (e.g., "$10M", "120 min") into numeric types.
-* **Data Integrity:** Implemented **Median Imputation** to handle missing revenue data without skewing results.
-* **Vectorized ROI Calculation:** Created a Profitability Index to compare indie hits against blockbusters.
-
-### 2. Global E-Commerce Performance Analyzer
-**Goal:** Merge fragmented sales, product, and customer data into a unified business dashboard.
-* **Multi-Source Integration:** Merged CSV and Excel files using complex **Inner and Left Join** logic.
-* **Missing Value Handling:** Utilized `ffill` for time-series gaps and `interpolate()` for numeric trends.
-* **Categorical Normalization:** Standardized global region names using mapping dictionaries.
-* **Segmentation:** Utilized `groupby()` to identify high-value customer segments and regional profit drivers.
+This repository showcases my ability to handle the full data lifecycle: from cleaning "dirty" datasets to building professional visual dashboards.
 
 ---
 
-## 🔢 NumPy Projects (Numerical & Image Processing)
-
-### 3. Health Data Sanitizer & Scorer
-**Goal:** Cleanse medical dataset noise and calculate patient health risk scores.
-* **Noise Reduction:** Identifies and replaces missing value markers with column-wise means.
-* **Min-Max Normalization:** Scales varied health metrics into a standard 0 to 1 range.
-* **Weighted Risk Assessment:** Applies linear algebra principles to calculate final patient risk scores.
-
-### 4. Satellite Coverage Optimizer
-**Goal:** Optimize satellite-to-user communication using spatial geometry.
-* **Spatial Distance Calculation:** Implements the **Euclidean Distance Formula** to find proximity between 50+ satellites and a user.
-* **Boolean Masking:** Efficiently filters satellites within a specific signal radius using bitwise logic.
-
-### 5. Pixel-Level Image Filter
-**Goal:** Manipulate image data as matrix structures.
-* **Broadcasting:** Used scalar addition to adjust image brightness across an entire matrix.
-* **Structural Analysis:** Used axis-based aggregation (`sum()`) to analyze vertical brightness distributions.
+## 🛠️ Tech Stack & Skills
+* **Data Manipulation:** Pandas (Merging, GroupBy, Pivot Tables)
+* **Numerical Computing:** NumPy (Vectorization, Linear Algebra, Masking)
+* **Data Visualization:** Matplotlib (Subplots, Heatmaps, Trends)
+* **Data Cleaning:** Regex, Imputation, Min-Max Normalization
 
 ---
 
-## 🛠️ Tech Stack
-* **Languages:** Python
-* **Libraries:** Pandas, NumPy
-* **Techniques:** Vectorization, Regex, Data Imputation, Matrix Manipulation, Relational Merging
+## 🚀 Projects Overview
 
-## 📖 Key Concepts Demonstrated
-* **Data Integration:** Combining disparate sources into "Single Source of Truth" DataFrames.
-* **Advanced Cleaning:** Using both pattern matching (Regex) and statistical filling (Mean/Median).
-* **Efficiency:** Leveraging **Vectorization** to avoid slow Python loops on large datasets.
-* **Business Intelligence:** Moving beyond "clean data" to calculate ROI, LTV, and Risk Metrics.
+### 1. 🎬 Movie Industry Strategy Optimizer
+**Goal:** Identify high-ROI genres by analyzing 1,000+ films.
+* **Cleaning:** Used Regex for date extraction and Median Imputation for missing revenue.
+* **Visualization:** Built Quadrant Analysis (Rating vs. Profit) and Market Share Pie Charts to identify "Golden Genres."
+
+### 2. 🛍️ Global E-Commerce Performance Analyzer
+**Goal:** Merge fragmented global sales data to find profit drivers.
+* **Cleaning:** Integrated datasets via Left/Inner Joins and used `ffill` for time-series gaps.
+* **Visualization:** Created Time-Series Line Plots for profit trends and Grouped Bar Charts for regional performance.
+
+### 🏥 Health Risk Scorer & Sanitizer
+**Goal:** Clean medical noise and rank patient risk using weighted metrics.
+* **Cleaning:** Implemented automated noise reduction and Min-Max Scaling (0-1 range).
+* **Visualization:** Generated Health Heatmaps and Risk Distribution Histograms to identify critical patient clusters.
+
+### 4. 🛰️ Satellite Coverage Optimizer
+**Goal:** Find the most efficient satellite connections using spatial math.
+* **Logic:** Calculated Euclidean Distances and used Boolean Masking for 15-unit signal range.
+* **Visualization:** Designed a Spatial Coverage Map highlighting in-range satellites and the nearest connection point.
+
+### 5. 🖼️ Digital Image Pixel Analyzer
+**Goal:** Manipulate image brightness and structure at the matrix level.
+* **Logic:** Scalar Broadcasting for brightness and Axis-based aggregation for structural analysis.
+* **Visualization:** Displayed Side-by-Side comparisons of original vs. filtered images and Pixel Intensity Histograms.
+
 
 ---
